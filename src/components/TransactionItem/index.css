@@ -1,0 +1,23 @@
+.historyItem {
+  border: 1px solid #cbd5e1;
+  border-top: none;
+  padding: 10px 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+}
+.para {
+  color: #475569;
+  font-size: 12px;
+  width: 60px;
+}
+.historyItem button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: transparent;
+}
+.del-img {
+  width: 20px;
+}

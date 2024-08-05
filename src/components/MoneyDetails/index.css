@@ -1,0 +1,39 @@
+.money-list {
+  border-width: 1px;
+  border-radius: 12px;
+  padding: 22px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex: 1;
+}
+@media (max-width: 768px) {
+  .money-list {
+    width: 300px;
+  }
+}
+
+.green {
+  border: 1px solid #84cc16;
+  background-color: #ecfccb;
+}
+.blue {
+  border: 1px solid #06b6d4;
+  background-color: #cffafe;
+}
+.purple {
+  border: 1px solid #7c3aed;
+  background-color: #ede9fe;
+}
+.card-img {
+  width: 50px;
+}
+.title {
+  color: #1e293b;
+  font-size: 9px;
+  margin: 10px 0px;
+}
+.state {
+  color: #1e293b;
+  font-size: 18px;
+}
